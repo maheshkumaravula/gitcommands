@@ -1,0 +1,82 @@
+1  history
+    2  git --version
+    3  apt purge git -y
+    4  add-apt-repository ppa:git-core/ppa
+    5  apt update
+    6  apt install git -y
+    7  git --version
+    8  id
+    9  echo $HOME
+   10  ls -la /root
+   11  mkdir MyProj
+   12  cd MyProj/
+   13  git init
+   14  ls -la
+   15  git config --global user.name raman
+   16  ls -la /root
+   17  cat /root/.gitconfig
+   18  git config --global user.email raman@gmail.com
+   19  cat /root/.gitconfig
+   20  touch myfile.txt
+   21  git status
+   22  git add myfile.txt
+   23  git commit -m "myfile is added"
+   24  git log
+   25  cd ..
+   26  mkdir LocalProj
+   27  cd LocalProj/
+   28  git init
+   29  ls -la .git/
+   30  cat .git/confg
+   31  cat .git/config
+   32  git config --local user.name intelli
+   33  cat .git/config
+   34  git config --local user.email intelli@gmail.com
+   35  cat .git/config
+   36  touch myfile.txt
+   37  git add.
+   38  git add .
+   39  git commit -m "file is added"
+   40  git log
+   41  cat .git/config
+   42  git init
+   43  cd ..
+   44  mkdir springproj
+   45  cd springproj/
+   46  git init
+   47  ls - la
+   48  ls -la
+   49  ls .git
+   50  git status
+   51  touch service.java
+   52  touch dao.java bal.java
+   53  ls
+   54  git status
+   55  git add service.java
+   56  git status
+   57  git rm --cached service.java
+   58  git status
+   59  git add .
+   60  git status
+   61  git commit -m "service.java" service.java
+   62  git status
+   63  git log
+   64  git log --oneline
+   65  git status
+   66  git commit -m "bal.java and dao.java is added"
+   67  git status
+   68  git log --oneline
+   69  git log
+   70  cat .git/HEAD
+   71  git log --oneline
+   72  git remote add origin https://github.com/onlineTrainingguy/springproj_new.git
+   73  cat .git/config
+   74  git push origin master
+   75  ssh-keygen
+   76  cat  /root/.ssh/id_rsa.pub
+   77  vi .git/config
+   78  touch pl.java
+   79  git add .
+   80  git commit -m "pl.java is added"
+   81  git push origin master
+   82  history
